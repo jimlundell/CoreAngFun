@@ -7,7 +7,8 @@ import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 
 @Component({
     selector: 'cat',
-    templateUrl: './cat.component.html'
+    templateUrl: './cat.component.html',
+    styleUrls: ['./cat.component.css']
 })
 export class CatComponent implements OnInit {
     //cat = new Object(); //??
