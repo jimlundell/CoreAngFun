@@ -24,8 +24,7 @@ export class CatComponent implements OnInit {
     }
 
     ngOnInit() {
-        //get a cat
-        this.getData();
+        //do nothing
     }
 
     get newCat() {

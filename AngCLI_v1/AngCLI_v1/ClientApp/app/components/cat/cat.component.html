@@ -2,8 +2,11 @@
 
 <p>This is a cat.</p>
 
-<div id="cat">
+<button (click)="newCat()">get new cat</button>
+
+<hr />
+
+{{ cat }}
+<div id="cat" *ngIf="cat != 'init'">
     <img [src]="cat" />
 </div>
-
-<button (click)="getData()">refresh</button>
